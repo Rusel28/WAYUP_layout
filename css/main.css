@@ -1,0 +1,256 @@
+body {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  color      : #201b2d;
+  margin     : 0;
+  padding    : 0;
+}
+
+div, p, input, button, form, span, a{
+  box-sizing: border-box;
+  margin    : 0;
+  padding   : 0;
+}
+
+h1, h2, h3 {
+  padding    : 0;
+  margin     : 0;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 37px;
+}
+
+h2 {
+  font-size : 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size    : 19px;
+  margin-bottom: 24px;
+}
+
+.container {
+  width : 1170px;
+  margin: 0 auto;
+}
+
+header {
+  background    : rgb(78, 189, 253);
+  background    : linear-gradient(90deg, rgba(78, 189, 253, 1) 0%, rgba(55, 143, 217, 1) 100%);
+  padding-top   : 60px;
+  padding-bottom: 140px;
+  color         : white;
+}
+
+.header_content {
+  display        : flex;
+  justify-content: space-between;
+  align-items:center; 
+}
+
+.text {
+  margin-bottom: 45px;
+  width        : 400px;
+  margin-top   : 48px;
+  line-height  : 1.5em;
+}
+
+.offer {
+  width: 563px;
+}
+
+ span {
+  font-size: 59px;
+}
+
+.header_content img {
+  width: 600px;
+  
+}
+
+.btn {
+  display    : block;
+  width      : 222px;
+  background : #ffd429;
+  text-align : center;
+  padding    : 20px 0;
+  color      : #2e2a1b;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.btn:hover{
+    background : #fbca08;
+    
+}
+
+.relaxation{
+  padding-top: 108px;
+  padding-bottom  : 125px;
+}
+
+.wraper {
+  display        : flex;
+  justify-content: space-between;
+  margin-top     : 75px;
+  
+}
+
+.wraper_content {
+  padding-top: 100px;
+  width      : 289px;
+  text-align : center;
+  
+}
+
+.img1 {
+  background: url('../img/icon_ime.jpg') no-repeat top;
+}
+
+.img2 {
+  background: url('../img/icon_beach.jpg') no-repeat top;
+}
+
+.img3 {
+  background: url('../img/icons_launc.jpg') no-repeat top;
+}
+
+
+.wraper_content p {
+  font-family: Myriad Pro, sans-serif;
+  font-weight: 700;
+  font-size  : 14px;
+  padding    : 0 3px;
+}
+
+.forms{
+ padding:  100px 0;
+  background: #ecf3f8;
+}
+.forms h2{
+margin-bottom: 60px;
+}
+
+.forms_content{
+  width: 320px;
+ margin: 0 auto;
+  
+}
+input{
+  width: 320px;
+  display: block;
+  margin-bottom: 14px;
+  padding: 17px 22px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid #cecece;
+}
+.btn_form{
+  width: 320px;
+  border: none;
+  cursor: pointer;
+}
+
+footer{
+  background: #164d7a;
+  padding: 64px 0;
+}
+.footer_text{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+
+/*----------------1200px--------------------*/
+
+@media screen and (max-width: 1200px) {
+  .container{
+    width: 960px; 
+  }
+  .logo, .btn{
+    display: block;
+    margin: 0 auto;
+  }
+  .header_content{
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .text {
+    width: auto;
+  }
+ .offer  {
+   text-align: center;
+  }
+ 
+
+  
+}
+
+/*--------------992px-----------------*/
+
+@media screen and (max-width: 992px) {
+  .container{
+    width: 720px;
+  }
+.wraper{
+  flex-direction: column;
+}
+.wraper_content{
+  margin: 20px auto;
+}
+  
+}
+
+/*---------------768px----------------*/
+
+@media screen and (max-width: 768px) {
+  .container{
+    width: 540px;
+  }
+  header {
+    padding-top   : 40px;
+    padding-bottom: 60px;
+  }
+  .relaxation, .forms, footer{
+    padding: 60px 0;
+  }
+
+}
+
+/*---------------576px----------------*/
+
+@media screen and (max-width: 576px) {
+  .container{
+    width: 90%;
+  }
+ 
+   .offer, .header_content img, .forms_content, input,  .btn_form  {
+    width: 100%;
+  }
+ 
+  .offer{
+    font-size: 16px;
+  }
+
+   h1 {
+    font-size: 20px;
+  }
+
+  span{
+    font-size: 40px;
+  }
+   
+}
+
+
+  
+  
